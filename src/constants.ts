@@ -5,7 +5,7 @@ export const MAX_EXPIRATION_MONTHS = 1;
 
 export const API_BASE_MAINNET = "https://api.opensea.io";
 export const API_BASE_TESTNET = "https://testnets-api.opensea.io";
-export const API_V1_PATH = `/api/v1`;
+export const API_V1_PATH = `/api/v2`;
 
 export const DEFAULT_ZONE = ethers.constants.AddressZero;
 export const ENGLISH_AUCTION_ZONE_MAINNETS =
