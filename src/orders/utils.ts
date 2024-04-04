@@ -46,7 +46,7 @@ export const getBestListingAPIPath = (
 };
 
 export const getCollectionPath = (slug: string) => {
-  return `/api/v1/collection/${slug}`;
+  return `/api/v2/collections/${slug}`;
 };
 
 export const getBuildOfferPath = () => {
